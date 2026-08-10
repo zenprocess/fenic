@@ -49,7 +49,7 @@ dev = [
   "maturin>=1.8.6",
   "requests>=2.32.0",
   "ipykernel>=6.29.0",
-  "lancedb>=0.22.0,<0.25.0",
+  "lancedb>=0.37.1,<0.38.0",
   "pymupdf>=1.26.4",
   "scikit-learn>=1.7.1",
 ]
@@ -71,7 +71,7 @@ google = ["google-genai[local-tokenizer]>=2.13.0"]
 cohere = ["cohere>=5.16.1"]
 cluster = ["scikit-learn>=1.7.1"]
 pdf = ["pymupdf>=1.26.4"]
-sim-join = ["lancedb>=0.22.0,<0.25.0"]
+sim-join = ["lancedb>=0.37.1,<0.38.0"]
 cloud = [
   "pyarrow<23.0.2,>=23.0.1",
   "grpcio>=1.60.0",
